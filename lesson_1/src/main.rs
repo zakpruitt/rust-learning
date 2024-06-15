@@ -1,6 +1,3 @@
-fn hello_world() {
-    println!("Hello from Lesson 1, World!")
-}
 
 fn formatted_prints() {
     // In general, the `{}` will be automatically replaced with any
@@ -45,7 +42,7 @@ fn formatted_prints() {
     println!("{number:>width$}");
 }
 
-pub fn execute_lesson() {
-    hello_world();
+fn main() {
+    println!("Hello from Lesson 1, world!");
     formatted_prints();
 }
